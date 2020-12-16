@@ -1,4 +1,4 @@
-package com.tasks.task1;
+package com.module2.primitives;
 import java.util.Scanner;
 
 public class Main
