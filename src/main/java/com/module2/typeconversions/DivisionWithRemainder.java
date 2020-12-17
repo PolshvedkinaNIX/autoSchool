@@ -1,4 +1,4 @@
-package com.module2.typeconvertions;
+package com.module2.typeconversions;
 import java.io.*;
 /*
 В переменных q и w хранятся два натуральных числа. Создайте программу,
