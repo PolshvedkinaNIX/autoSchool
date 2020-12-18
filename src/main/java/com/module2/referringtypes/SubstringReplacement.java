@@ -27,29 +27,26 @@ public class SubstringReplacement
             System.out.printf("Введите подстроку, на которую замените %s\n", subStr);
 
             String newSubStr = bufferedReader.readLine();
+            String[] strParts = str.split(subStr);
 
+            boolean startCheck = str.startsWith(subStr);
+            boolean endCheck = str.endsWith(subStr);
 
-             String[] strParts = str.split(subStr);
-
-                boolean startCheck = str.startsWith(subStr);
-                boolean endCheck = str.endsWith(subStr);
-
-                if (startCheck)
+            if (startCheck)
                 {
                     System.out.printf("%s", newSubStr);
                 }
 
-                int length = strParts.length;
+            int length = strParts.length;
 
-                for (int i = 0; i < length - 1; i++)
+            for (int i = 0; i < length - 1; i++)
                 {
                     System.out.printf("%s%s", strParts[i], newSubStr);
                 }
-                System.out.printf("%s", strParts[length - 1]);
+            System.out.printf("%s", strParts[length - 1]);
 
-                if (endCheck)
+            if (endCheck)
                     System.out.printf("%s\n", newSubStr);
-
         }
     }
 }
