@@ -1,4 +1,4 @@
-package com.module2.controlcomstructs;
+package com.module2.controlconstructs;
 import java.io.IOException;
 
 public class LoopsWhile

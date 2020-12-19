@@ -1,4 +1,4 @@
-package com.module2.controlcomstructs;
+package com.module2.controlconstructs;
 
 import com.module2.arrays.ArrayOfStringsLength;
 import com.module2.arrays.MaxIntFromArray;
