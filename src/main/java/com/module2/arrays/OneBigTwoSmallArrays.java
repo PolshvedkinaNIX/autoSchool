@@ -1,5 +1,7 @@
 package com.module2.arrays;
 
+import java.io.IOException;
+
 /*
 -5-
 
@@ -14,5 +16,16 @@ package com.module2.arrays;
  */
 public class OneBigTwoSmallArrays
 {
+    public static void main(String[] args) throws IOException
+    {
+        int[] bigArray = MaxIntFromArray.initializeArray(20);
+        int[] firstSmallArray = new int[10];
+        int[] secondSmallArray = new int[10];
+        for (int i=0; i<firstSmallArray.length; i++)
+            firstSmallArray[i]=bigArray[i];
 
+        for (int i=0; i<secondSmallArray.length; i++)
+            secondSmallArray[i]=bigArray[i+10];
+        ArrayOfStringsLength.printIntArray(secondSmallArray);
+    }
 }

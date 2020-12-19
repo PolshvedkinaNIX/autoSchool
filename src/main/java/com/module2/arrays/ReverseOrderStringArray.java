@@ -1,4 +1,5 @@
 package com.module2.arrays;
+import java.io.*;
 
 /*-2-
 
@@ -11,5 +12,32 @@ package com.module2.arrays;
  */
 public class ReverseOrderStringArray
 {
-
+    public static void main(String[] args) throws IOException
+    {
+        String[] array = new String[10];
+        InputStream inputStream = System.in;
+        Reader inputStreamReader = new InputStreamReader(inputStream);
+        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+        for (int i =0; i< array.length-2; i++)
+        {
+            System.out.printf("Введите строку №%d:\n", i);
+            array[i] = bufferedReader.readLine();
+        }
+        String [] newArray = ReverseOrderStringArray.reverseStrArray(array);
+        ReverseOrderStringArray.printStrArray(newArray);
+    }
+    public static String[] reverseStrArray(String[] array)
+    {
+        String [] reversedArray = new String[array.length];
+        for (int i = 0; i < array.length; i++)
+        {
+            reversedArray[i] = array[array.length-i-1];
+        }
+        return reversedArray;
+    }
+    public static void printStrArray(String[] array)
+    {
+        for (int i = 0; i < array.length; i++)
+            System.out.println(array[i]);
+    }
 }

@@ -1,4 +1,7 @@
 package com.module2.arrays;
+
+import java.io.IOException;
+
 /*
 -4-
 
@@ -12,5 +15,14 @@ package com.module2.arrays;
 */
 public class ReverseOrderIntsArray
 {
-
+    public static void main(String[] args) throws IOException
+    {
+        int[] intArray = MaxIntFromArray.initializeArray(10);
+        int[] reversedIntArray = new int[intArray.length];
+        for (int i = 0; i < intArray.length; i++)
+        {
+            reversedIntArray[i] = intArray[intArray.length-i-1];
+        }
+        ArrayOfStringsLength.printIntArray(reversedIntArray); //method from third task
+    }
 }

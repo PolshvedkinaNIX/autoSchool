@@ -9,30 +9,28 @@ import java.io.*;
         2. Метод max(int[] array) должен находить максимальное
         число из элементов массива
 */
-public class MaxIntFrom20Array
+public class MaxIntFromArray
 {
-    static int intArray[];
     public static void main(String[] args) throws IOException
     {
-        MaxIntFrom20Array.initializeArray();
-        int max = MaxIntFrom20Array.max(intArray);
+        int[] intArray = MaxIntFromArray.initializeArray(20);
+        int max = MaxIntFromArray.max(intArray);
         System.out.printf("Самое большое число: %d\n", max);
     }
-
-    public static void initializeArray() throws IOException
+    public static int[] initializeArray(int arrayLength) throws IOException
     {
-        intArray = new int[20];
+        int[] array = new int[arrayLength];
         InputStream inputStream = System.in;
         Reader inputStreamReader = new InputStreamReader(inputStream);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-        for (int i =0; i< intArray.length; i++)
+        for (int i =0; i< array.length; i++)
         {
             System.out.printf("Введите число №%d:\n", i);
             String s = bufferedReader.readLine();
-            intArray[i] = Integer.parseInt(s);
+            array[i] = Integer.parseInt(s);
         }
+        return array;
     }
-
     public static int max(int[] array)
     {
         int max = 0;
