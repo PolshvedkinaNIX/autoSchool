@@ -40,8 +40,7 @@ public class ArrayOfStringsLength
     }
     public static void printIntArray(int[] array)
     {
-        for (int i = 0; i < array.length; i++)
-            System.out.println(array[i]);
+        for (int j : array) System.out.println(j);
     }
 
 }

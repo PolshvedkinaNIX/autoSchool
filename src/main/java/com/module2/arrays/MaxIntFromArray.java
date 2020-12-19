@@ -35,10 +35,10 @@ public class MaxIntFromArray
     {
         int max = 0;
 
-        for (int i=0; i<array.length; i++)
+        for (int j : array)
         {
-            if (array[i]>=max)
-                max = array[i];
+            if (j >= max)
+                max = j;
         }
         return max;
     }
