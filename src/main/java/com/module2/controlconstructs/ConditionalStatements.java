@@ -37,8 +37,8 @@ public class ConditionalStatements
         int [] sortedArray = ConditionalStatements.sort(unsortedArray);
         ArrayOfStringsLength.printIntArray(sortedArray);
 
-        System.out.println("4. Ввести с клавиатуры два имени, и если имена одинаковые, вывести сообщение «Имена идентичны».");
-        System.out.println("Если имена разные, но их длины равны – вывести сообщение – «Длины имен равны».");
+        System.out.println("4. Ввести с клавиатуры два имени, и если имена одинаковые, вывести сообщение «Имена идентичны».\n" +
+                "Если имена разные, но их длины равны – вывести сообщение – «Длины имен равны».\n");
         System.out.println("Ведите первое имя:");
         String name1 = ConditionalStatements.inputString();
         System.out.println("Введите второе имя:");
@@ -48,9 +48,9 @@ public class ConditionalStatements
         else if (name1.length()==name2.length())
             System.out.println("Длины имен равны");
 
-        System.out.println("5. Ввести с клавиатуры имя и возраст. Если возраст меньше 18 вывести надпись «Подрасти еще».");
-        System.out.println("6. Ввести с клавиатуры имя и возраст. Если возраст больше 20 вывести надпись «И 18-ти достаточно».");
-        System.out.println("(Решение объединено)");
+        System.out.println("5. Ввести с клавиатуры имя и возраст. Если возраст меньше 18 вывести надпись «Подрасти еще».\n" +
+                "6. Ввести с клавиатуры имя и возраст. Если возраст больше 20 вывести надпись «И 18-ти достаточно».\n" +
+                "(Решение объединено)");
         System.out.println("Введите имя:");
         String name = ConditionalStatements.inputString();
         System.out.println("Теперь возраст.");
@@ -60,9 +60,9 @@ public class ConditionalStatements
         else if (age>20)
             System.out.printf("%s, и 18-ти достаточно.\n", name);
 
-        System.out.println("7. За семь попыток угадать число. При каждой попытке вам будет выводиться сообщение - \"Мало\" или \"Много\".");
-        System.out.println("Если угадаете, уложившись в семь попыток, то выводится сообщение \"Угадал :)\" и программа завершает работу.");
-        System.out.println("Если по истечении 7 попыток число не угадывается, то выводится сообщение \"Не угадал :(\" и завершается работа.");
+        System.out.println("7. За семь попыток угадать число. При каждой попытке вам будет выводиться сообщение - \"Мало\" или \"Много\".\n" +
+                "Если угадаете, уложившись в семь попыток, то выводится сообщение \"Угадал :)\" и программа завершает работу.\n" +
+                "Eсли по истечении 7 попыток число не угадывается, то выводится сообщение \"Не угадал :(\" и завершается работа.");
         Random random = new Random();
         int secret = random.nextInt(20+1);
         System.out.println("Угадываем число от 0 до 20");
@@ -81,6 +81,7 @@ public class ConditionalStatements
             else
                 System.out.println("Мало");
             counter--;
+            System.out.printf("Осталось попыток: %d\n", counter);
         }
         if (success)
             System.out.println("Угадал :)");

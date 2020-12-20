@@ -9,7 +9,7 @@ public class Main
         Scanner in = new Scanner(System.in);
         System.out.print("Input name: ");
         String name = in.nextLine();
-        System.out.printf("Hello, %s",name);
+        System.out.printf("Hello, %s!",name);
     }
 
 
