@@ -4,11 +4,13 @@ import java.io.IOException;
 public class LoopsFor
 {
     public static void main(String[] args) throws IOException, InterruptedException {
-        System.out.println("13. Используя цикл for вывести на экран чётные числа от 1 до 100 включительно. Через пробел либо с новой строки.");
+        System.out.println("13. Используя цикл for вывести на экран чётные числа от 1 до 100 включительно.\n" +
+                "Через пробел либо с новой строки.");
         for (int i = 2; i<=100; i = i+2)
             System.out.println(i);
 
-        System.out.println("14. Ввести с клавиатуры два числа m и n. Используя цикл for вывести на экран прямоугольник размером m на n из восьмёрок.");
+        System.out.println("14. Ввести с клавиатуры два числа m и n.\n" +
+                "Используя цикл for вывести на экран прямоугольник размером m на n из восьмёрок.");
         int m = ConditionalStatements.inputInt();
         int n = ConditionalStatements.inputInt();
         for (int i = 0; i<m; i++)
