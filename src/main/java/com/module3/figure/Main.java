@@ -11,7 +11,7 @@ import java.util.Random;
 
 public class Main
 {
-    public static void main(String[] args) throws IOException
+    public static void main(String[] args) throws Exception
     {
         Figure[] figures = new Figure[10];
         for (int i=0; i< figures.length; i++)
