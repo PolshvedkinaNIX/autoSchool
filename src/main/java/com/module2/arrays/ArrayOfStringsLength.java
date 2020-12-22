@@ -23,7 +23,7 @@ public class ArrayOfStringsLength
             {
                 intArray[i]=strArray[i].length();
             }
-            ArrayOfStringsLength.printIntArray(intArray);
+            printIntArray(intArray);
         }
     public static String[] initialiseStrArray(int arrayLength) throws IOException
     {

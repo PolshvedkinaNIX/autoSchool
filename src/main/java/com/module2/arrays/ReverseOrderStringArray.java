@@ -23,8 +23,8 @@ public class ReverseOrderStringArray
             System.out.printf("Введите строку №%d:\n", i);
             array[i] = bufferedReader.readLine();
         }
-        String [] newArray = ReverseOrderStringArray.reverseStrArray(array);
-        ReverseOrderStringArray.printStrArray(newArray);
+        String [] newArray = reverseStrArray(array);
+        printStrArray(newArray);
     }
     public static String[] reverseStrArray(String[] array)
     {

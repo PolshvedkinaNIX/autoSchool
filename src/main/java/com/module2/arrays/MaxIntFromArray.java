@@ -13,8 +13,8 @@ public class MaxIntFromArray
 {
     public static void main(String[] args) throws IOException
     {
-        int[] intArray = MaxIntFromArray.initializeArray(20);
-        int max = MaxIntFromArray.max(intArray);
+        int[] intArray = initializeArray(20);
+        int max = max(intArray);
         System.out.printf("Самое большое число: %d\n", max);
     }
     public static int[] initializeArray(int arrayLength) throws IOException

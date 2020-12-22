@@ -11,8 +11,8 @@ public class ConditionalStatements
     public static void main(String[] args) throws IOException
     {
         System.out.println("1. Ввести с клавиатуры два числа, и вывести на экран минимальное из них.");
-        int x = ConditionalStatements.inputInt();
-        int y = ConditionalStatements.inputInt();
+        int x = inputInt();
+        int y = inputInt();
         if (x>y)
             System.out.println(y);
         else if (y>x)
@@ -21,28 +21,28 @@ public class ConditionalStatements
             System.out.println("Числа равны");
 
         System.out.println("2. Ввести с клавиатуры четыре числа, и вывести максимальное из них.");
-        x=ConditionalStatements.inputInt();
-        y=ConditionalStatements.inputInt();
-        int z=ConditionalStatements.inputInt();
-        int w=ConditionalStatements.inputInt();
+        x=inputInt();
+        y=inputInt();
+        int z=inputInt();
+        int w=inputInt();
         int [] array1 = {x, y, z, w};
         int max = MaxIntFromArray.max(array1);
         System.out.println(max);
 
         System.out.println("3. Ввести с клавиатуры три числа, и вывести их в порядке убывания.");
-        x=ConditionalStatements.inputInt();
-        y=ConditionalStatements.inputInt();
-        z=ConditionalStatements.inputInt();
+        x=inputInt();
+        y=inputInt();
+        z=inputInt();
         int[] unsortedArray = {x, y, z};
-        int [] sortedArray = ConditionalStatements.sort(unsortedArray);
+        int [] sortedArray = sort(unsortedArray);
         ArrayOfStringsLength.printIntArray(sortedArray);
 
         System.out.println("4. Ввести с клавиатуры два имени, и если имена одинаковые, вывести сообщение «Имена идентичны».\n" +
                 "Если имена разные, но их длины равны – вывести сообщение – «Длины имен равны».\n");
         System.out.println("Ведите первое имя:");
-        String name1 = ConditionalStatements.inputString();
+        String name1 = inputString();
         System.out.println("Введите второе имя:");
-        String name2 = ConditionalStatements.inputString();
+        String name2 = inputString();
         if (name1.compareTo(name2) == 0)
             System.out.println("Имена идентичны");
         else if (name1.length()==name2.length())
@@ -52,9 +52,9 @@ public class ConditionalStatements
                 "6. Ввести с клавиатуры имя и возраст. Если возраст больше 20 вывести надпись «И 18-ти достаточно».\n" +
                 "(Решение объединено)");
         System.out.println("Введите имя:");
-        String name = ConditionalStatements.inputString();
+        String name = inputString();
         System.out.println("Теперь возраст.");
-        int age = ConditionalStatements.inputInt();
+        int age = inputInt();
         if (age<18)
             System.out.printf("%s, подрасти еще.\n", name);
         else if (age>20)
@@ -70,7 +70,7 @@ public class ConditionalStatements
         boolean success = false;
         while (counter>0)
         {
-            int guess = ConditionalStatements.inputInt();
+            int guess = inputInt();
             if (guess == secret)
             {
                 success = true;
@@ -90,13 +90,12 @@ public class ConditionalStatements
     }
     public static int inputInt() throws IOException
     {
-        int x;
         InputStream inputStream = System.in;
         Reader inputStreamReader = new InputStreamReader(inputStream);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
         System.out.println("Введите число:");
         String s = bufferedReader.readLine();
-        x = Integer.parseInt(s);
+        int x = Integer.parseInt(s);
         return x;
     }
     public static String inputString() throws IOException
