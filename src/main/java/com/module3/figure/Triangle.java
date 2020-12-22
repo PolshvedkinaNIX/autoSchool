@@ -28,10 +28,14 @@ public class Triangle<halfPerimeter> extends Figure
         this.ab = new Line(a.getX(), a.getY(), b.getX(), b.getY());
         this.bc = new Line(b.getX(), b.getY(), c.getX(), c.getY());
         this.ca = new Line(c.getX(), c.getY(), a.getX(), a.getY());
-        //проверка существования такого треугольника должна происходить до клонструктора!!!
+        //проверка существования такого треугольника должна происходить до конструктора!!!
     }
     public void setName(String name)
     {
         this.name = name;
+    }
+    public String getName()
+    {
+        return name;
     }
 }

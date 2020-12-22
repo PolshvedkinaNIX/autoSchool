@@ -9,4 +9,14 @@ public abstract class Figure
     {
         return area;
     }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
 }

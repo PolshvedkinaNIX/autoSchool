@@ -25,4 +25,8 @@ public class Circle extends Figure
     {
         this.name = name;
     }
+    public String getName()
+    {
+        return name;
+    }
 }
