@@ -38,4 +38,13 @@ public class Triangle<halfPerimeter> extends Figure
     {
         return name;
     }
+    public static boolean existenceCheck(Line ab, Line bc, Line ca)
+    /* проверка существования треугольника в согласии с правилом, что каждая сторона должна быть меньше суммы остальных
+    она оказалась не нужна, но вдруг потом пригодится =) */
+    {
+        boolean validTriangle = false;
+        if ((ca.getLength() < ab.getLength() + bc.getLength()) && (ab.getLength() < bc.getLength() + ca.getLength()) && (ab.getLength() < bc.getLength() + ca.getLength()))
+            validTriangle = true;
+        return validTriangle;
+    }
 }
