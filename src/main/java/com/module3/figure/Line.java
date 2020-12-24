@@ -18,7 +18,8 @@ public class Line
 
     public float getLength()
     {
-        this.length = (float) Math.sqrt(Math.abs(start.getX()-end.getX())+Math.abs(start.getY()-end.getY()));
+        this.length = (float) Math.sqrt(Math.pow((start.getX() - end.getX()), 2) + Math.pow((start.getY() - end.getY()), 2));
+
         return length;
     }
 

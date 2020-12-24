@@ -11,6 +11,7 @@ public class Circle extends Figure
     @Override
     public float getArea()
     {
+        this.diameter = new Line(a.getX(), a.getY(), b.getX(), b.getY());
         this.area = (float) ((Math.pow((diameter.getLength()/2), 2))*Math.PI);
         return area;
     }
@@ -18,9 +19,7 @@ public class Circle extends Figure
     {
         this.a = new Point(aX, aY);
         this.b = new Point(bX, bY);
-        this.diameter = new Line(a.getX(), a.getY(), b.getX(), b.getY());
     }
-
     public void setName(String name)
     {
         this.name = name;
@@ -29,4 +28,5 @@ public class Circle extends Figure
     {
         return name;
     }
+
 }

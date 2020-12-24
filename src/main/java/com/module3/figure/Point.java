@@ -20,5 +20,4 @@ public class Point
         this.coordinateY = y;
     }
 
-
 }

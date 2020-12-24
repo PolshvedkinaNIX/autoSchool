@@ -33,4 +33,8 @@ public class Square extends Figure
     {
         return name;
     }
+
+    public Line getSide() {
+        return side;
+    }
 }
