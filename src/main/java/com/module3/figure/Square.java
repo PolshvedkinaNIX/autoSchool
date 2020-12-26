@@ -13,17 +13,16 @@ public class Square extends Figure
     @Override
     public float getArea()
     {
-        this.area = (float) (Math.pow(side.getLength(), 2));
         return area;
     }
     public Square(float aX, float aY, float bX, float bY) // constructor
     {
-        this.a = new Point(aX, aY);
+        this.a = new Point(aX, aY);//конструктор по трем точкам и площадь рассчитывать сразу здесь
         this.b = new Point(bX, bY);
         this.side = new Line(a.getX(), a.getY(), b.getX(), b.getY());
         this.c = new Point(b.getX()+(b.getY()-a.getY()), b.getY()-(a.getX()-b.getX()));
         this.d = new Point(a.getX()+(b.getY()-a.getY()), a.getY()-(a.getX()-b.getX()));
-
+        this.area = (float) (Math.pow(side.getLength(), 2));
     }
     public void setName(String name)
     {
