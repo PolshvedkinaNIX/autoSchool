@@ -1,17 +1,15 @@
 package com.module3.figure;
 import java.util.Random;
-import com.universal.UniversalMethods;
 
 public class RandomFiguresArray
 {
     private int figureSize; //максимальный линейный размер фигуры
-    private int shift; // это сдвиг по оси x, благодаря ему фигуры не будут пересекаться
     private int incrementedSift; // эта переменная хранит расстояние, которое увеличивается на значение сдвига с каждой новой фигурой
     public Figure [] generateRandomFiguresArray(int linearSize)
     {
         figureSize = linearSize;
-        shift = figureSize + 1;
-        incrementedSift = 0;
+        int shift = figureSize + 1;
+        incrementedSift = 0; // это сдвиг по оси x, благодаря ему фигуры не будут пересекаться
 
         Figure[] figures = new Figure[10];
         for (int i=0; i< figures.length; i++) //наполняем массив случайными фигурами
@@ -21,17 +19,17 @@ public class RandomFiguresArray
             if (type == 0)
             {
                 figures[i] = randCircle();
-                figures[i].setName((i+1)+". "+NameGenerator.giveName()+" Circle");
+                figures[i].setName(NameGenerator.giveName()+" Circle "+(i+1));
             }
             else if (type == 1)
             {
                 figures[i] = randTriangle();
-                figures[i].setName((i+1)+". "+NameGenerator.giveName()+" Triangle");
+                figures[i].setName(NameGenerator.giveName()+" Triangle "+(i+1));
             }
             else
             {
                 figures[i] = randSquare();
-                figures[i].setName((i+1)+". "+NameGenerator.giveName()+" Square");
+                figures[i].setName(NameGenerator.giveName()+" Square "+(i+1));
             }
             incrementedSift = incrementedSift + shift; // важный кусок про сдвиг
         }

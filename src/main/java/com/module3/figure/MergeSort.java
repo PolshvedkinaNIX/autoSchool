@@ -4,10 +4,6 @@ public class MergeSort
 {
     public static float[] mergeSortFloatsArray(float[] array) // ASC sort
     {
-        if (array == null)
-        {
-            return null;
-        }
         if (array.length<2)
             return array;
 

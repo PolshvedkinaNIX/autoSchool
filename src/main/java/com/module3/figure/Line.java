@@ -2,9 +2,9 @@ package com.module3.figure;
 
 public class Line
 {
-    private Point start;
-    private Point end;
-    private float length;
+    private final Point start;
+    private final Point end;
+    private final float length;
 
     public Point getStart()
     {
@@ -18,8 +18,6 @@ public class Line
 
     public float getLength()
     {
-        this.length = (float) Math.sqrt(Math.pow((start.getX() - end.getX()), 2) + Math.pow((start.getY() - end.getY()), 2));
-
         return length;
     }
 
@@ -27,6 +25,7 @@ public class Line
     {
         start = new Point(startX, startY);
         end = new Point(endX, endY);
+        this.length = (float) Math.sqrt(Math.pow((start.getX() - end.getX()), 2) + Math.pow((start.getY() - end.getY()), 2));
     }
 
 }

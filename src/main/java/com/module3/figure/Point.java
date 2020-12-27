@@ -2,8 +2,8 @@ package com.module3.figure;
 
 public class Point
 {
-    private float coordinateX;
-    private float coordinateY;
+    private final float coordinateX;
+    private final float coordinateY;
 
     public float getX()
     {
