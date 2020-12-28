@@ -1,4 +1,5 @@
 package com.module3.figure;
+
 import com.universal.UniversalMethods;
 /*
 В отдельном пакете figur нужно создать структуру классов и имплементировать необходимые методы.
@@ -26,8 +27,8 @@ public class Main {
         System.out.println("Введите максимальный линейный размер фигуры");
         int figureSize = UniversalMethods.inputInt();
         RandomFiguresArray random = new RandomFiguresArray();
-        Figure [] figures = random.generateRandomFiguresArray(figureSize);
-         figures = MergeSort.mergeSortFigureArray(figures);
+        Figure[] figures = random.generateRandomFiguresArray(figureSize);
+        figures = MergeSort.mergeSortFigureArray(figures);
         for (Figure figure : figures) {
             System.out.printf("%s S=%.2f\n", figure.getName(), figure.getArea());
         }

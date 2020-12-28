@@ -1,21 +1,18 @@
 package com.module3.figure;
 
-public class Point
-{
+public class Point {
     private final float coordinateX;
     private final float coordinateY;
 
-    public float getX()
-    {
+    public float getX() {
         return coordinateX;
     }
-    public float getY()
-    {
+
+    public float getY() {
         return coordinateY;
     }
 
-    public Point(float x, float y)
-    {
+    public Point(float x, float y) {
         this.coordinateX = x;
         this.coordinateY = y;
     }

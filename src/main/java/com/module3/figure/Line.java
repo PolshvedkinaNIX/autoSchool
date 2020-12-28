@@ -1,23 +1,19 @@
 package com.module3.figure;
 
-public class Line
-{
+public class Line {
     private final Point start;
     private final Point end;
     private final float length;
 
-    public Point getStart()
-    {
+    public Point getStart() {
         return start;
     }
 
-    public Point getEnd()
-    {
+    public Point getEnd() {
         return end;
     }
 
-    public float getLength()
-    {
+    public float getLength() {
         return length;
     }
 
