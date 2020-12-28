@@ -1,7 +1,9 @@
 package com.universal;
 import java.io.*;
-
 import static com.module3.figure.MergeSort.mergeSortFloatsArray;
+/*
+Это вспомогательный класс
+ */
 
 public class UniversalMethods
 {

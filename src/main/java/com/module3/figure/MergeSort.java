@@ -29,19 +29,7 @@ public class MergeSort
 
         for (int i = 0; i < result.length; i++)
         {
-            if (counterA==arrayA.length && counterB == arrayB.length)
-            {
-                if (arrayA[arrayA.length-1] <= arrayB[arrayB.length-1])  // last element handling
-                {
-                    result[result.length-1] = arrayB[arrayB.length-1];
-                }
-                else
-                {
-                    result[result.length-1] = arrayA[arrayA.length-1];
-                }
-                break;
-            }
-            else if (counterA==arrayA.length && counterB != arrayB.length)
+            if (counterA==arrayA.length && counterB != arrayB.length)
             {
                 result[i] = arrayB[counterB];
                 counterB++;
@@ -56,14 +44,12 @@ public class MergeSort
                 if (arrayA[counterA] <= arrayB[counterB])
                 {
                     result[i] = arrayA[counterA];
-                    if (counterA < arrayA.length)
-                        counterA++;
+                    counterA++;
                 }
                 else
                 {
                     result[i] = arrayB[counterB];
-                    if (counterB < arrayB.length)
-                        counterB++;
+                    counterB++;
                 }
             }
         }
@@ -104,16 +90,7 @@ public class MergeSort
 
         for (int i = 0; i < result.length; i++)
         {
-
-            if (counterA == arrayA.length && counterB == arrayB.length) {
-                if (arrayA[arrayA.length - 1].getArea() <= arrayB[arrayB.length - 1].getArea())  // last element handling
-                {
-                    result[result.length - 1] = arrayB[arrayB.length - 1];
-                } else {
-                    result[result.length - 1] = arrayA[arrayA.length - 1];
-                }
-                break;
-            } else if (counterA == arrayA.length && counterB != arrayB.length) {
+            if (counterA == arrayA.length && counterB != arrayB.length) {
                 result[i] = arrayB[counterB];
                 counterB++;
             } else if (counterB == arrayB.length && counterA != arrayA.length) {
@@ -123,12 +100,10 @@ public class MergeSort
                 if (arrayA[counterA].getArea() <= arrayB[counterB].getArea())
                 {
                     result[i] = arrayA[counterA];
-                    if (counterA < arrayA.length)
-                        counterA++;
+                    counterA++;
                 } else {
                     result[i] = arrayB[counterB];
-                    if (counterB < arrayB.length)
-                        counterB++;
+                    counterB++;
                 }
             }
         }

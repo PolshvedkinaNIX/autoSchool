@@ -23,7 +23,7 @@ import com.universal.UniversalMethods;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        System.out.println("Введите размер фигуры");
+        System.out.println("Введите максимальный линейный размер фигуры");
         int figureSize = UniversalMethods.inputInt();
         RandomFiguresArray random = new RandomFiguresArray();
         Figure [] figures = random.generateRandomFiguresArray(figureSize);

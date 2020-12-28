@@ -31,7 +31,7 @@ public class RandomFiguresArray
                 figures[i] = randSquare();
                 figures[i].setName(NameGenerator.giveName()+" Square "+(i+1));
             }
-            incrementedSift = incrementedSift + shift; // важный кусок про сдвиг
+            incrementedSift = incrementedSift + shift; //сдвиг места генерации после появления каждой новой фигуры во избежание пересечений
         }
         return figures;
     }
