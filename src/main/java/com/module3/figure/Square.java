@@ -30,8 +30,8 @@ public class Square extends Figure {
         this.b = new Point(relativeC.getY() + center.getX(), relativeA.getX() + center.getY());
         this.d = new Point(relativeA.getY() + center.getX(), relativeC.getX() + center.getY());
         this.side = new Line(a.getX(), a.getY(), b.getX(), b.getY());
-        this.area = (float) (Math.pow(side.getLength(), 2));
-        coordinates = new Point[]{a, b, c, d};
+        super.setArea((float) (Math.pow(side.getLength(), 2)));
+        super.setCoordinates(new Point[]{a, b, c, d});
     }
 
     public Line getSide() {

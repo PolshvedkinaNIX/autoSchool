@@ -18,8 +18,8 @@ public class Triangle extends Figure {
         this.bc = new Line(b.getX(), b.getY(), c.getX(), c.getY());
         this.ca = new Line(c.getX(), c.getY(), a.getX(), a.getY());
         this.halfPerimeter = (ab.getLength() + bc.getLength() + ca.getLength()) / 2;
-        this.area = (float) (Math.sqrt(halfPerimeter * (halfPerimeter - ab.getLength())
-                * (halfPerimeter - bc.getLength()) * (halfPerimeter - ca.getLength())));
-        coordinates = new Point[]{a, b, c};
+        super.setArea((float) (Math.sqrt(halfPerimeter * (halfPerimeter - ab.getLength())
+                * (halfPerimeter - bc.getLength()) * (halfPerimeter - ca.getLength()))));
+        setCoordinates(new Point[]{a, b, c});
     }
 }

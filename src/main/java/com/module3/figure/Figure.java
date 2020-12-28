@@ -1,9 +1,9 @@
 package com.module3.figure;
 
 public abstract class Figure {
-    protected String name;
-    protected float area;
-    protected Point[] coordinates;
+    private String name;
+    private float area;
+    private Point[] coordinates;
 
     public float getArea() {
         return area;
@@ -26,4 +26,11 @@ public abstract class Figure {
             System.out.printf("%d. X:%.2f; Y:%.2f;\n", i + 1, coordinates[i].getX(), coordinates[i].getY());
     }
 
+    public void setArea(float area) {
+        this.area = area;
+    }
+
+    public void setCoordinates(Point[] coordinates) {
+        this.coordinates = coordinates;
+    }
 }
