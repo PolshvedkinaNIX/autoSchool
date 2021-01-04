@@ -16,7 +16,26 @@ int zero = 5/0;
  */
 
 public class Main {
-    public static void main(String[] args) throws IOException, InterruptedException {
-        Sleep1.sleep1();
+    public static void main(String[] args)
+    {
+        try {
+            Sleep1.sleep1();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            Sleep2.sleep2();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            int zero = 5/0;
+        } catch (ArithmeticException e){
+
+            System.err.println("You shall not fall!");
+        }
+
     }
 }
