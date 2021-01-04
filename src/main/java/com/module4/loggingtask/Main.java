@@ -10,8 +10,7 @@ import org.apache.logging.log4j.LogManager;
 информацию о вызове.
 Создать Main класс, в котором будет вызываться public метод из предыдущего класса
 Создать в resources/ файл log4j2.xml, в котором настроить вывод логов
-в виде: yyyy-MM-dd HH:mm:ss
-<уровень лога> <имя класса> <номер строки вызова записи в лог> <сообщение лога> в файл log_file.log
+в виде: yyyy-MM-dd HH:mm:ss <уровень лога> <имя класса> <номер строки вызова записи в лог> <сообщение лога> в файл log_file.log
 Лог должен создаватся в папке /target/log-output
 Добавить логирование в класс логики
 Прислать куратору log_file.log
@@ -23,10 +22,8 @@ public class Main {
     public static void main(String[] args) {
         logger.trace("Entering application.");
         Logic logic = new Logic();
-        if (logic.publicMethod() == 0) {
-            logger.error("Didn't do it.");
-            logic.publicMethod();
-            logger.error("Exiting application.");
-        }
+
+        logic.publicMethod();
+
     }
 }

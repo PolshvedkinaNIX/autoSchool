@@ -1,14 +1,19 @@
 package com.module4.loggingtask;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 public class Logic
 {
-    private int privateMethod()
+    private static final Logger logger = LogManager.getLogger(Logic.class);
+    private void privateMethod()
     {
-        System.out.println("This is private Hello");
-        return 0;
+        System.out.println("This is private Hello =)");
+        logger.info("Private method had worked!");
     }
-    public int publicMethod()
+    public void publicMethod()
     {
-        return privateMethod();
+        System.out.println("I'm going to show you something special...");
+        privateMethod();
+        logger.trace("Public method had worked!");
     }
 }
