@@ -17,5 +17,6 @@ public class Sleep1
             System.out.println(x);
         else
             System.out.println("Числа равны");
+
     }
 }

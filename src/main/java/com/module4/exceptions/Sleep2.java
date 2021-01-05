@@ -23,5 +23,6 @@ public class Sleep2
             System.out.println(x);
         else
             System.out.println("Числа равны");
+
     }
 }
