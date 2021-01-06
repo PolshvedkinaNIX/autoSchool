@@ -1,25 +1,28 @@
 package com.module3.figure;
 
 public class Triangle extends Figure {
-    private Point a;
-    private Point b;
-    private Point c;
-    private Line ab;
-    private Line bc;
-    private Line ca;
-    private float halfPerimeter;
+    private final Point a;
+    private final Point b;
+    private final Point c;
+    private final Line ab;
+    private final Line bc;
+    private final Line ca;
 
-    public Triangle(float aX, float aY, float bX, float bY, float cX, float cY) // constructor
+    public Triangle(Point a, Point b, Point c) // constructor
     {
-        this.a = new Point(aX, aY);
-        this.b = new Point(bX, bY);
-        this.c = new Point(cX, cY);
-        this.ab = new Line(a.getX(), a.getY(), b.getX(), b.getY());
-        this.bc = new Line(b.getX(), b.getY(), c.getX(), c.getY());
-        this.ca = new Line(c.getX(), c.getY(), a.getX(), a.getY());
-        this.halfPerimeter = (ab.getLength() + bc.getLength() + ca.getLength()) / 2;
+        this.a = a;
+        this.b = b;
+        this.c = c;
+        this.ab = new Line(a, b);
+        this.bc = new Line(b, c);
+        this.ca = new Line(c, a);
+        setCoordinates(new Point[]{a, b, c});
+        setArea();
+    }
+    @Override
+    public void setArea(){
+        float halfPerimeter = (ab.getLength() + bc.getLength() + ca.getLength()) / 2;
         super.setArea((float) (Math.sqrt(halfPerimeter * (halfPerimeter - ab.getLength())
                 * (halfPerimeter - bc.getLength()) * (halfPerimeter - ca.getLength()))));
-        setCoordinates(new Point[]{a, b, c});
     }
 }

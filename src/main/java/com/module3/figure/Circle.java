@@ -1,16 +1,19 @@
 package com.module3.figure;
 
 public class Circle extends Figure {
-    private Point a;
-    private Point b;
-    private Line diameter;
+    private final Point a;
+    private final Point b;
+    private final Line diameter;
 
-    public Circle(float aX, float aY, float bX, float bY) //constructor
-    {
-        this.a = new Point(aX, aY);
-        this.b = new Point(bX, bY);
-        this.diameter = new Line(a.getX(), a.getY(), b.getX(), b.getY());
+    public Circle(Point a, Point b) {
+        this.a = a;
+        this.b = b;
+        this.diameter = new Line(a, b);
+        setArea();
+        setCoordinates(new Point[]{a, b});
+    }
+    @Override
+    public void setArea() {
         super.setArea((float) ((Math.pow((diameter.getLength() / 2), 2)) * Math.PI));
-        super.setCoordinates(new Point[]{a, b});
     }
 }
