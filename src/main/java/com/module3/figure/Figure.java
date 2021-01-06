@@ -30,7 +30,7 @@ public abstract class Figure {
     public void setArea(float area){
         this.area = area;
     }
-    public void setArea(){}
+    public abstract void setArea(); //метод не принимает параметров, чтобы для всех фигур была одинаковая сигнатура
     public void setCoordinates(Point[] coordinates) {
         this.coordinates = coordinates;
     }

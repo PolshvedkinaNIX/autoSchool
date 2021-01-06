@@ -9,11 +9,11 @@ public class Circle extends Figure {
         this.a = a;
         this.b = b;
         this.diameter = new Line(a, b);
-        setArea();
+        setArea(); //поскольку это private поле в Figure, я не могу его присвоить напрямую
         setCoordinates(new Point[]{a, b});
     }
-    @Override
+
     public void setArea() {
-        super.setArea((float) ((Math.pow((diameter.getLength() / 2), 2)) * Math.PI));
+        super.setArea((float) ((Math.pow((diameter.getLength() / 2), 2)) * Math.PI)); //метод не принимает параметров, чтобы для всех фигур была одинаковая сигнатура
     }
 }

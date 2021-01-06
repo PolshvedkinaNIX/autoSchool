@@ -5,11 +5,6 @@ public class Line {
     private final Point end;
     private final float length;
 
-    public Line(float startX, float startY, float endX, float endY) {
-        this.start = new Point(startX, startY);
-        this.end = new Point(endX, endY);
-        this.length = setLength(start, end);
-    }
     public Line(Point start, Point end){
         this.start = start;
         this.end = end;

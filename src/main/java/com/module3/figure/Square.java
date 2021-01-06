@@ -5,7 +5,7 @@ public class Square extends Figure {
     private Point b;
     private final Point c;
     private Point d;
-    private Line side;
+    private final Line side;
     private Point center;
 
     public Square(Point a, Point c) // constructor
@@ -13,9 +13,10 @@ public class Square extends Figure {
         this.a = a;//конструктор по двум точкам, используется диагональ, а не сторона, тк только диагональ задает квадрат однозначно (по стороне можно построить 2 квадрата, площадь которых идентична, но положение отличается)
         this.c = c;
         this.center = getCenter(a, c);
-        setBDPoints(a,c);
+        this.b = getB(a, c);
+        this.d = getD(a, c);
         this.side = new Line(a, b);
-        setArea();
+        setArea(); //поскольку это private поле в Figure, я не могу его присвоить напрямую
         setCoordinates(new Point[]{a, b, c, d});
     }
     private Point getCenter(Point a, Point c){
@@ -24,16 +25,18 @@ public class Square extends Figure {
         return center = new Point(Math.abs(c.getX() - a.getX()) / 2 + lesserX,
                 Math.abs(c.getY() - a.getY()) / 2 + lesserY);
     }
-    private void setBDPoints(Point a, Point c){
-
+    private Point getB(Point a, Point c){
         Point relativeA = new Point(a.getX() - center.getX(), a.getY() - center.getY());
         Point relativeC = new Point(c.getX() - center.getX(), c.getY() - center.getY());
-        this.b = new Point(relativeC.getY() + center.getX(), relativeA.getX() + center.getY());
-        this.d = new Point(relativeA.getY() + center.getX(), relativeC.getX() + center.getY());
+        return b = new Point(relativeC.getY() + center.getX(), relativeA.getX() + center.getY());
     }
-    @Override
+    private Point getD(Point a, Point c){
+        Point relativeA = new Point(a.getX() - center.getX(), a.getY() - center.getY());
+        Point relativeC = new Point(c.getX() - center.getX(), c.getY() - center.getY());
+        return d = new Point(relativeA.getY() + center.getX(), relativeC.getX() + center.getY());
+    }
     public void setArea(){
-        super.setArea((float) (Math.pow(side.getLength(), 2)));
+        super.setArea((float) (Math.pow(side.getLength(), 2))); //метод не принимает параметров, чтобы для всех фигур была одинаковая сигнатура
     }
     public Line getSide() {
         return side;

@@ -35,7 +35,7 @@ public class Main {
         for (int i = 0; i < figures.length; i++) //наполняем массив случайными фигурами
         {
             Random random = new Random();
-            int type = random.nextInt(2 + 1);
+            int type = random.nextInt(2 + 1); //определяем тип фигуры случайным образом
             if (type == 0) {
                 figures[i] = new Circle(Point.randPoint(figureSize, incrementedSift), Point.randPoint(figureSize, incrementedSift));
                 figures[i].setName(NameGenerator.giveName() + " Circle " + (i + 1));
