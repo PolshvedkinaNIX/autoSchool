@@ -16,7 +16,7 @@ int zero = 5/0;
  */
 
 public class Main {
-    public static void main(String[] args)
+    public static void main(String[] args) //IOException здесь был и так, потому я решила и его ловить
     {
         try {
             Sleep1.sleep1();
