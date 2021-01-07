@@ -6,13 +6,6 @@ public class Point {
     private final float coordinateX;
     private final float coordinateY;
 
-    public float getX() {
-        return coordinateX;
-    }
-    public float getY() {
-        return coordinateY;
-    }
-
     public Point(float x, float y) {
         this.coordinateX = x;
         this.coordinateY = y;
@@ -26,4 +19,10 @@ public class Point {
         return new Point(x, y);
     }
 
+    public float getX() {
+        return coordinateX;
+    }
+    public float getY() {
+        return coordinateY;
+    }
 }

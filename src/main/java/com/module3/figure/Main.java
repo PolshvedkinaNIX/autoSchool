@@ -51,7 +51,7 @@ public class Main {
         }
         figures = MergeSort.mergeSortFigureArray(figures);
         for (Figure figure : figures) {
-            System.out.printf("%s S=%.2f\n", figure.getName(), figure.getArea());
+            System.out.printf("%s S=%.2f\n", figure.getName(), figure.calcArea());
         }
     }
 }

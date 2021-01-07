@@ -16,13 +16,16 @@ public class Triangle extends Figure {
         this.ab = new Line(a, b);
         this.bc = new Line(b, c);
         this.ca = new Line(c, a);
-        setCoordinates(new Point[]{a, b, c});
-        setArea(); //поскольку это private поле в Figure, я не могу его присвоить напрямую
+        this.coordinates = new Point[]{a, b, c};
     }
 
-    public void setArea(){
-        float halfPerimeter = (ab.getLength() + bc.getLength() + ca.getLength()) / 2; //метод не принимает параметров, чтобы для всех фигур была одинаковая сигнатура
-        super.setArea((float) (Math.sqrt(halfPerimeter * (halfPerimeter - ab.getLength())
-                * (halfPerimeter - bc.getLength()) * (halfPerimeter - ca.getLength()))));
+    @Override
+    public float calcArea() {
+        if (this.area == 0){
+            float halfPerimeter = (ab.calcLength() + bc.calcLength() + ca.calcLength()) / 2; //метод не принимает параметров, чтобы для всех фигур была одинаковая сигнатура
+            this.area = (float) (Math.sqrt(halfPerimeter * (halfPerimeter - ab.calcLength())
+                    * (halfPerimeter - bc.calcLength()) * (halfPerimeter - ca.calcLength())));
+        }
+        return  area;
     }
 }

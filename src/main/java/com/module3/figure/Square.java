@@ -16,10 +16,9 @@ public class Square extends Figure {
         this.b = getB(a, c);
         this.d = getD(a, c);
         this.side = new Line(a, b);
-        setArea(); //поскольку это private поле в Figure, я не могу его присвоить напрямую
-        setCoordinates(new Point[]{a, b, c, d});
+        this.coordinates = new Point[]{a, b, c, d};
     }
-    private Point getCenter(Point a, Point c){
+    private Point getCenter(Point a, Point c){ //а не нужно ли тогда этот метод и 2 следующих тоже переименновать, или внутренние геттеры бывают?
         float lesserX = Math.min(a.getX(), c.getX());
         float lesserY = Math.min(a.getY(), c.getY());
         return center = new Point(Math.abs(c.getX() - a.getX()) / 2 + lesserX,
@@ -35,11 +34,12 @@ public class Square extends Figure {
         Point relativeC = new Point(c.getX() - center.getX(), c.getY() - center.getY());
         return d = new Point(relativeA.getY() + center.getX(), relativeC.getX() + center.getY());
     }
-    public void setArea(){
-        super.setArea((float) (Math.pow(side.getLength(), 2))); //метод не принимает параметров, чтобы для всех фигур была одинаковая сигнатура
-    }
-    public Line getSide() {
-        return side;
-    }
 
+    @Override
+    public float calcArea() {
+        if (this.area == 0){
+            this.area = (float) (Math.pow(side.calcLength(), 2));
+        }
+        return area;
+    }
 }
