@@ -32,8 +32,12 @@ public class UniversalMethods
         InputStream inputStream = System.in;
         Reader inputStreamReader = new InputStreamReader(inputStream);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-        System.out.println("Ведите строку:");
-        String str = bufferedReader.readLine();
+        String str;
+        do {
+            System.out.println("Ведите непустую строку:");
+            str = bufferedReader.readLine();
+        }while (str.length()<1);
+
         return str;
     }
     public static int[] inputIntsFromString(int x) throws IOException
