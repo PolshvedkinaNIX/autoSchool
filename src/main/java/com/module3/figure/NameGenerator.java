@@ -10,4 +10,13 @@ public class NameGenerator {
         int x = random.nextInt((names.length - 1) + 1);
         return names[x];
     }
+    public static String giveSecondName(){
+        Random random = new Random();
+        String[] secondNames = new String[]{
+                "Ivanov", "Petrov", "Smith", "Brown", "Black",
+                "Sidorov", "Stalin", "Bond", "Svetlov", "Li",
+                "White", "Blabla", "Ui", "Cat", "Figure"};
+        int x = random.nextInt((secondNames.length - 1) + 1);
+        return secondNames[x];
+    }
 }
