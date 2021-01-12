@@ -1,5 +1,9 @@
 package com.universal;
 import java.io.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
 import static com.module3.figure.MergeSort.mergeSortFloatsArray;
 /*
 Это вспомогательный класс
@@ -84,5 +88,14 @@ public class UniversalMethods
         for (float j : array) System.out.println(j);
     }
 
+    public static <K, V>void printHashMap(Map<K, V> map){
+        Iterator<Map.Entry<K, V>> iterator = map.entrySet().iterator();
+        while (iterator.hasNext()) {
+            Map.Entry<K, V> pair = iterator.next();
+            K key = pair.getKey();
+            V value = pair.getValue();
+            System.out.println(key + " " + value);
+        }
+    }
 
 }
