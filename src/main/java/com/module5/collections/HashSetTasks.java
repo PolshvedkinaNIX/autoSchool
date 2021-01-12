@@ -1,5 +1,5 @@
 package com.module5.collections;
-import com.module3.figure.NameGenerator;
+import com.universal.RandomGenerator;
 import java.util.*;
 
 public class HashSetTasks {
@@ -63,7 +63,7 @@ public class HashSetTasks {
         System.out.printf("\nTask 3.\n");
         Map<String, Cat> cats3 = new HashMap<>(10);
         for (int i = 0; i < 10; i++){
-            String name = NameGenerator.giveName()+" "+(i+1);
+            String name = RandomGenerator.giveName()+" "+(i+1);
             cats3.put(name, new Cat(name));
         }
         Iterator<Map.Entry<String, Cat>> iterator3 = cats3.entrySet().iterator();
