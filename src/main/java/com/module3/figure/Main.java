@@ -1,7 +1,21 @@
 package com.module3.figure;
-import java.io.IOException;
+
+import com.universal.UniversalMethods;
+
 import java.util.Random;
 /*
+В отдельном пакете figure нужно создать структуру классов и имплементировать необходимые методы.
+Должен быть базовый абстрактный класс и его наследники.
+Все функции должны быть реализованы.
+В классе Main с главным методом main должно быть реализовано задание.
+
+Описание класов:
+Создать структуру классов для круга, квадрата и треугольника. Каждый из них должен иметь следующие свойства (private)
+и методы (public)
+- имя
+- координаты
+- функцию получения координат
+- функцию расчета площади
 Задание
 В функции main должны быть рeализованы следующие пункты:
 - создания массива рандомных фигур размером в 10 элементов.
@@ -9,78 +23,35 @@ import java.util.Random;
 - вывести отсортированный массив на консоли в виде : Имя, S=площадь
  */
 
-public class Main
-{
-    public static void main(String[] args) throws IOException
-    {
+public class Main {
+
+    public static void main(String[] args) throws Exception {
+        System.out.println("Введите максимальный линейный размер фигуры");
+        int figureSize = UniversalMethods.inputInt();
+        int shift = figureSize + 1;
+        int incrementedSift = 0; // это сдвиг по оси x, благодаря ему фигуры не будут пересекаться
+
         Figure[] figures = new Figure[10];
-        for (int i=0; i< figures.length; i++)
+        for (int i = 0; i < figures.length; i++) //наполняем массив случайными фигурами
         {
             Random random = new Random();
-            int type = random.nextInt(2+1);
-            if (type == 0)
-            {
-                figures[i] = randCircle();
+            int type = random.nextInt(2 + 1); //определяем тип фигуры случайным образом
+            if (type == 0) {
+                figures[i] = new Circle(Point.randPoint(figureSize, incrementedSift), Point.randPoint(figureSize, incrementedSift));
+                figures[i].setName(NameGenerator.giveName() + " Circle " + (i + 1));
+            } else if (type == 1) {
+                figures[i] = new Triangle(Point.randPoint(figureSize, incrementedSift), Point.randPoint(figureSize, incrementedSift),
+                        Point.randPoint(figureSize, incrementedSift));
+                figures[i].setName(NameGenerator.giveName() + " Triangle " + (i + 1));
+            } else {
+                figures[i] = new Square(Point.randPoint(figureSize, incrementedSift), Point.randPoint(figureSize, incrementedSift));
+                figures[i].setName(NameGenerator.giveName() + " Square " + (i + 1));
             }
-            else if (type == 1)
-            {
-                figures[i] = randTriangle();
-            }
-            else
-            {
-                figures[i] = randSquare();
-            }
+            incrementedSift = incrementedSift + shift; //сдвиг места генерации после появления каждой новой фигуры во избежание пересечений
         }
-        for (int i=0; i< figures.length; i++)
-        {
-            System.out.println(figures[i].getArea());
+        figures = MergeSort.mergeSortFigureArray(figures);
+        for (Figure figure : figures) {
+            System.out.printf("%s S=%.2f\n", figure.getName(), figure.calcArea());
         }
-
-    }
-    public static Circle randCircle()
-    {
-        Point a = randPoint();
-        Point b = randPoint();
-        Circle circle = new Circle(a.getX(), a.getY(), b.getX(), b.getY());
-        return circle;
-    }
-    public static Triangle randTriangle()
-    {
-        Point a;
-        Point b;
-        Point c;
-        Line ca;
-        Line ab;
-        Line bc;
-        do {
-            a = randPoint();
-            b = randPoint();
-            c = randPoint();
-            ab = new Line(a.getX(), a.getY(), b.getX(), b.getY());
-            bc = new Line(b.getX(), b.getY(), c.getX(), c.getY());
-            ca = new Line(c.getX(), c.getY(), a.getX(), a.getY());
-
-        }
-        while ((ca.getLength()>=ab.getLength()+ bc.getLength())||(ab.getLength()>= bc.getLength()+ ca.getLength())||(ab.getLength()>= bc.getLength()+ ca.getLength()));
-        Triangle triangle = new Triangle(a.getX(), a.getY(), b.getX(), b.getY(), c.getX(), c.getY());
-        return triangle;
-
-    }
-    public static Square randSquare()
-    {
-        Point a = randPoint();
-        Point b = randPoint();
-        Point c = randPoint();
-        Point d = randPoint();
-        Square square = new Square(a.getX(), a.getY(), b.getX(), b.getY(), c.getX(), c.getY(), d.getX(), d.getY());
-        return square;
-    }
-    public static Point randPoint()
-    {
-        Random random = new Random();
-        float x = random.nextFloat(); /// Как сюда записать рамки?
-        float y = random.nextFloat();
-        Point point = new Point(x,y);
-        return point;
     }
 }

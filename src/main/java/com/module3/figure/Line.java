@@ -1,31 +1,27 @@
 package com.module3.figure;
 
-public class Line
-{
-    private Point start;
-    private Point end;
+public class Line {
+    private final Point start;
+    private final Point end;
     private float length;
 
-    public Point getStart()
-    {
+    public Line(Point start, Point end){
+        this.start = start;
+        this.end = end;
+    }
+
+    public Point getStart() {
         return start;
     }
 
-    public Point getEnd()
-    {
+    public Point getEnd() {
         return end;
     }
 
-    public float getLength()
-    {
-        this.length = (float) Math.sqrt(Math.abs(start.getX()-end.getX())+Math.abs(start.getY()-end.getY()));
+    public float calcLength() {
+        if (this.length == 0){
+            this.length = (float) Math.sqrt(Math.pow((start.getX() - end.getX()), 2) + Math.pow((start.getY() - end.getY()), 2));
+        }
         return length;
     }
-
-    public Line(float startX, float startY, float endX, float endY) //constructor
-    {
-        start = new Point(startX, startY);
-        end = new Point(endX, endY);
-    }
-
 }
