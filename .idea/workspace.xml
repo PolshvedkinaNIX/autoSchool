@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d90d6ff-fe6f-4fc9-a623-4594ae69e21b" name="Default Changelist" comment="Universal class is created.">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/module3/figure/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/module3/figure/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/module3/figure/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/module3/figure/Figure.java" afterDir="false" />
-    </list>
+    <list default="true" id="8d90d6ff-fe6f-4fc9-a623-4594ae69e21b" name="Default Changelist" comment="Universal class is created." />
     <list id="20cf697a-80fc-4137-9dfd-71d354c4f26a" name="Uncommitted changes before Update at 1/12/2021 5:41 PM [Default Changelist]" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
