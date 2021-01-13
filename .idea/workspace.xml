@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d90d6ff-fe6f-4fc9-a623-4594ae69e21b" name="Default Changelist" comment="Universal class is created." />
+    <list default="true" id="8d90d6ff-fe6f-4fc9-a623-4594ae69e21b" name="Default Changelist" comment="Universal class is created.">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/module3/figure/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/module3/figure/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/module3/figure/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/module3/figure/Figure.java" afterDir="false" />
+    </list>
     <list id="20cf697a-80fc-4137-9dfd-71d354c4f26a" name="Uncommitted changes before Update at 1/12/2021 5:41 PM [Default Changelist]" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -496,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610537147794</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Unknown mistake is fixed.">
+      <created>1610537503169</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1610537503173</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -528,7 +540,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHELVE_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="Advanced names added, some bugs fixed." />
     <MESSAGE value="Progress." />
     <MESSAGE value="Sort is finished." />
     <MESSAGE value="Everything is almost ready =)" />
@@ -553,7 +564,8 @@
     <MESSAGE value="Revert &quot;Create .gitignore&quot;&#10;&#10;This reverts commit bedbd8a2" />
     <MESSAGE value="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit bad7cbf1" />
     <MESSAGE value="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit f77e2262" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit f77e2262" />
+    <MESSAGE value="Unknown mistake is fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Unknown mistake is fixed." />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XDebuggerManager">
