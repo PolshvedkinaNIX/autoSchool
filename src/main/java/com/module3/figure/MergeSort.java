@@ -83,7 +83,7 @@ public class MergeSort {
                 result[i] = arrayA[counterA];
                 counterA++;
             } else {
-                if (arrayA[counterA].getArea() <= arrayB[counterB].getArea()) {
+                if (arrayA[counterA].calcArea() <= arrayB[counterB].calcArea()) {
                     result[i] = arrayA[counterA];
                     counterA++;
                 } else {

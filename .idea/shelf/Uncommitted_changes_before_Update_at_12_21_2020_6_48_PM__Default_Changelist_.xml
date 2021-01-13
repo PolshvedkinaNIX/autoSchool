@@ -1,0 +1,34 @@
+<changelist name="Uncommitted_changes_before_Update_at_12_21_2020_6_48_PM_[Default_Changelist]" date="1608569321487" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_21_2020_6_48_PM_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 12/21/2020 6:48 PM [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module2/controlcomstructs/test.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module2/controlcomstructs/LoopsWhile.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module2/controlcomstructs/ConditionalStatements.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module2/arrays/ArrayOfStringsLength.class" />
+    <option name="AFTER_PATH" value="out/production/autoSchool/com/module2/arrays/ArrayOfStringsLength.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_21_2020_6_48_PM_[Default_Changelist]/ArrayOfStringsLength.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module2/arrays/MaxIntFromArray.class" />
+    <option name="AFTER_PATH" value="out/production/autoSchool/com/module2/arrays/MaxIntFromArray.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_21_2020_6_48_PM_[Default_Changelist]/MaxIntFromArray.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module2/controlcomstructs/LoopsFor.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>

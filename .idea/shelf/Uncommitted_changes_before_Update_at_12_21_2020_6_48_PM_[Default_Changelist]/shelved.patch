@@ -1,0 +1,16 @@
+Index: src/main/java/com/module2/primitives/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.module2.primitives;\r\nimport java.util.Scanner;\r\n\r\npublic class Main\r\n{\r\n    public static void main(String[] args)\r\n    {\r\n        System.out.println(\"Hello, world!\");\r\n        Scanner in = new Scanner(System.in);\r\n        System.out.print(\"Input name: \");\r\n        String name = in.nextLine();\r\n        System.out.printf(\"Hello, %s\",name);\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/module2/primitives/Main.java b/src/main/java/com/module2/primitives/Main.java
+--- a/src/main/java/com/module2/primitives/Main.java	(revision fe61976578d120894996ae698a83fc5f3e8f51e2)
++++ b/src/main/java/com/module2/primitives/Main.java	(date 1608544156473)
+@@ -12,5 +12,4 @@
+         System.out.printf("Hello, %s",name);
+     }
+ 
+-
+ }

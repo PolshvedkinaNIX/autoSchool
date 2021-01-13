@@ -1,0 +1,59 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_1_6_2021_6_10_PM_[Default_Changelist]" date="1609949418999" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_6_2021_6_10_PM_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 1/6/2021 6:10 PM [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module3/figure/NameGenerator.class" />
+    <option name="AFTER_PATH" value="out/production/autoSchool/com/module3/figure/NameGenerator.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_6_2021_6_10_PM_[Default_Changelist]/NameGenerator.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module3/figure/Test.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module3/figure/Circle.class" />
+    <option name="AFTER_PATH" value="out/production/autoSchool/com/module3/figure/Circle.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_6_2021_6_10_PM_[Default_Changelist]/Circle.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module3/figure/Line.class" />
+    <option name="AFTER_PATH" value="out/production/autoSchool/com/module3/figure/Line.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_6_2021_6_10_PM_[Default_Changelist]/Line.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module3/figure/Main.class" />
+    <option name="AFTER_PATH" value="out/production/autoSchool/com/module3/figure/Main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_6_2021_6_10_PM_[Default_Changelist]/Main.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module3/figure/RandomFiguresArray.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module3/figure/MergeSort.class" />
+    <option name="AFTER_PATH" value="out/production/autoSchool/com/module3/figure/MergeSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_6_2021_6_10_PM_[Default_Changelist]/MergeSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module3/figure/Figure.class" />
+    <option name="AFTER_PATH" value="out/production/autoSchool/com/module3/figure/Figure.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_6_2021_6_10_PM_[Default_Changelist]/Figure.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module3/figure/Point.class" />
+    <option name="AFTER_PATH" value="out/production/autoSchool/com/module3/figure/Point.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_6_2021_6_10_PM_[Default_Changelist]/Point.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module3/figure/Square.class" />
+    <option name="AFTER_PATH" value="out/production/autoSchool/com/module3/figure/Square.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_6_2021_6_10_PM_[Default_Changelist]/Square.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/autoSchool/com/module3/figure/Triangle.class" />
+    <option name="AFTER_PATH" value="out/production/autoSchool/com/module3/figure/Triangle.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_6_2021_6_10_PM_[Default_Changelist]/Triangle.class" />
+  </binary>
+</changelist>
