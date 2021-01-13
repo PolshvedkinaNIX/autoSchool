@@ -1,0 +1,9 @@
+2021-01-04 16:34:06 TRACE [main] Main 23 Entering application.
+2021-01-04 16:34:06 INFO  [main] Logic 11 Private method had worked!
+2021-01-04 16:34:06 TRACE [main] Logic 17 Public method had worked!
+2021-01-06 18:23:39 TRACE [main] Main 23 Entering application.
+2021-01-06 18:23:39 INFO  [main] Logic 11 Private method had worked!
+2021-01-06 18:23:39 TRACE [main] Logic 17 Public method had worked!
+2021-01-13 16:09:38 TRACE [main] Main 23 Entering application.
+2021-01-13 16:09:38 INFO  [main] Logic 11 Private method had worked!
+2021-01-13 16:09:38 TRACE [main] Logic 17 Public method had worked!
