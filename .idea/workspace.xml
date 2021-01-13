@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d90d6ff-fe6f-4fc9-a623-4594ae69e21b" name="Default Changelist" comment="Universal class is created." />
+    <list id="20cf697a-80fc-4137-9dfd-71d354c4f26a" name="Uncommitted changes before Update at 1/12/2021 5:41 PM [Default Changelist]" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="6895fafc1b294aa85d79b947433ff03eb1e87715" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ljiUKdIaV0qq51ls2Ghx4ZGEYZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.universal" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SetAndMapTasks">
+    <configuration name="ArrayListTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.module5.collections.ArrayListTasks" />
+      <module name="autoSchool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.module5.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashSetTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.module5.collections.HashSetTasks" />
+      <module name="autoSchool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.module5.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.module4.loggingtask.Main" />
+      <module name="autoSchool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.module4.loggingtask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.module4.exceptions.Main" />
+      <module name="autoSchool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.module4.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetAndMapTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-10" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.module5.collections.SetAndMapTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.module5.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniversalMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.universal.UniversalMethods" />
+      <module name="autoSchool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.universal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SetAndMapTasks" />
+        <item itemvalue="Application.ArrayListTasks" />
+        <item itemvalue="Application.HashSetTasks" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.UniversalMethods" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d90d6ff-fe6f-4fc9-a623-4594ae69e21b" name="Default Changelist" comment="" />
+      <created>1608116919782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608116919782</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Structure is created">
+      <created>1608117519868</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608117519868</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First program is created.">
+      <created>1608124779840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608124779840</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Additional task is done.">
+      <created>1608130103854</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608130103854</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Additional task is done.">
+      <created>1608130125898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608130125898</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Next task is done.">
+      <created>1608136545710</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608136545710</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Type conversion task is done.">
+      <created>1608140434278</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608140434278</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Next task is done.">
+      <created>1608226219525</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608226219525</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Next task is done.">
+      <created>1608311782615</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608311782615</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Array topic is completed.">
+      <created>1608373609721</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608373609721</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Conditional statements and loops topics are completed.">
+      <created>1608390931805</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608390931805</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Conditional statements and loops topics are completed.">
+      <created>1608391107913</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608391107913</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Third module is partly done.">
+      <created>1608569289400</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608569289401</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Third module is partly done.">
+      <created>1608569450664</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608569450664</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Third module is partly done.">
+      <created>1608570493573</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608570493573</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Static methods fixed.">
+      <created>1608633469939</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608633469939</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Universal class is created.">
+      <created>1608636121372</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608636121372</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Advanced names added, some bugs fixed.">
+      <created>1608657336221</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608657336222</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Progress.">
+      <created>1608799710531</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608799710531</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Sort is finished.">
+      <created>1608809630170</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608809630170</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Everything is almost ready =)">
+      <created>1608831624037</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608831624037</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Everything is almost ready =)">
+      <created>1608831758530</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608831758530</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Finally it is ready.">
+      <created>1609146558902</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609146558902</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Code style fixed=)">
+      <created>1609147046151</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1609147046152</updated>
+    </task>
+    <task id="LOCAL-00024" summary="All fields are set private.">
+      <created>1609171497057</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1609171497057</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Maven is added.">
+      <created>1609235516043</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1609235516043</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Dependencies is added.">
+      <created>1609236945257</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1609236945257</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Working on logging.">
+      <created>1609261317138</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1609261317138</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Logging task is done.">
+      <created>1609770392486</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1609770392486</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Loge file is moved into right place.">
+      <created>1609770900380</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1609770900380</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Exceptions task is done.">
+      <created>1609780525675</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1609780525675</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Exceptions task is done better =)">
+      <created>1609866151956</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1609866151956</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Refactoring.">
+      <created>1609946086131</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1609946086131</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Refactoring.">
+      <created>1609947991451</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1609947991451</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Comment is added.">
+      <created>1609950331572</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1609950331572</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Task 5 is started.">
+      <created>1610121643762</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610121643762</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Intermediate state, module 5 in progress.">
+      <created>1610128745106</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1610128745106</updated>
+    </task>
+    <task id="LOCAL-00037" summary="HashSet tasks is done :)">
+      <created>1610365450481</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1610365450481</updated>
+    </task>
+    <task id="LOCAL-00038" summary="ArrayList tasks is done :)">
+      <created>1610375432923</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1610375432923</updated>
+    </task>
+    <task id="LOCAL-00039" summary="ArrayList tasks is done :)">
+      <created>1610375463645</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1610375463645</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Last Collections tasks is partly done.">
+      <created>1610384499340</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1610384499340</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Last Collections tasks is done.">
+      <created>1610450151343</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1610450151343</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Refactoring.">
+      <created>1610458926352</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1610458926352</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHELVE_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="Third module is partly done." />
+    <MESSAGE value="Static methods fixed." />
+    <MESSAGE value="Universal class is created." />
+    <MESSAGE value="Advanced names added, some bugs fixed." />
+    <MESSAGE value="Progress." />
+    <MESSAGE value="Sort is finished." />
+    <MESSAGE value="Everything is almost ready =)" />
+    <MESSAGE value="Finally it is ready." />
+    <MESSAGE value="Code style fixed=)" />
+    <MESSAGE value="All fields are set private." />
+    <MESSAGE value="Maven is added." />
+    <MESSAGE value="Dependencies is added." />
+    <MESSAGE value="Working on logging." />
+    <MESSAGE value="Logging task is done." />
+    <MESSAGE value="Loge file is moved into right place." />
+    <MESSAGE value="Exceptions task is done." />
+    <MESSAGE value="Exceptions task is done better =)" />
+    <MESSAGE value="Comment is added." />
+    <MESSAGE value="Task 5 is started." />
+    <MESSAGE value="Intermediate state, module 5 in progress." />
+    <MESSAGE value="HashSet tasks is done :)" />
+    <MESSAGE value="ArrayList tasks is done :)" />
+    <MESSAGE value="Last Collections tasks is partly done." />
+    <MESSAGE value="Last Collections tasks is done." />
+    <MESSAGE value="Refactoring." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring." />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
