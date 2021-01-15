@@ -28,10 +28,9 @@ public class UniversalMethods
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
         System.out.println("Введите число:");
         String s = bufferedReader.readLine();
-        int x = Integer.parseInt(s);
-        return x;
+        return Integer.parseInt(s);
     }
-    public static String inputString() throws IOException
+    public static String inputString() throws IOException // этот метод просит строку ненулевой длины снова и снова, пока не получит её
     {
         InputStream inputStream = System.in;
         Reader inputStreamReader = new InputStreamReader(inputStream);

@@ -5,10 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de412308-fe20-4e66-ab90-9d9f17c5543d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_12_2021_6_33_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_12_2021_6_33_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_21_2020_6_48_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_21_2020_6_48_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_12_2021_5_41_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_12_2021_5_41_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/module5/collections/ArrayListTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/module5/collections/ArrayListTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/module5/collections/HashSetTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/module5/collections/HashSetTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/module5/collections/SetAndMapTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/module5/collections/SetAndMapTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/universal/UniversalMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universal/UniversalMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/Figure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/RandomFiguresArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module4/exeptions/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module4/exeptions/Sleep1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module4/exeptions/Sleep2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module4/exeptions/ZeroDivision.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module5/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module5/collections/ArrayListTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module5/collections/ArrayListTasks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module5/collections/HashSetTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module5/collections/HashSetTasks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module5/collections/SetAndMapTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module5/collections/SetAndMapTasks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/universal/UniversalMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/universal/UniversalMethods.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +60,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SetAndMapTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.module5.collections.SetAndMapTasks" />
+      <module name="autoSchool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.module5.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SetAndMapTasks" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
