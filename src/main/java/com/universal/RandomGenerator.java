@@ -1,5 +1,4 @@
 package com.universal;
-import java.lang.reflect.Array;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -34,7 +33,6 @@ public class RandomGenerator {
         Integer[] bigMonth = new Integer[]{1, 3, 5, 7, 8, 10, 12};
         Set<Integer> bigMonthSet = new HashSet<>();
         Collections.addAll(bigMonthSet, bigMonth);
-        Integer[] lesserMonth = new Integer[]{4, 6, 9, 11};
         int daysInMonth;
         if (bigMonthSet.contains(month)){
             daysInMonth = 30;

@@ -69,7 +69,7 @@ public class HashSetTasks {
         Thread.sleep(1000);
         System.out.print("\nTask 3.\n");
         Map<String, Cat> cats3 = new HashMap<>(10);
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < cats3.size(); i++) {
             String name = RandomGenerator.giveName() + " " + (i + 1);
             // это метод из пакета  universal, он рандомно выдает имена из имеющегося в нем массива, число добавляется для обеспечения уникальности ключа
             cats3.put(name, new Cat(name));

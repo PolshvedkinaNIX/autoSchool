@@ -47,7 +47,7 @@ public class SetAndMapTasks {
         Set<Integer> bigSet = new HashSet<>();
         for (Integer i : set13) {
             if (i > 10) {
-                bigSet.add(i);
+                bigSet.add(i); //TODO Лучше сделать через итератор и удалять сразу в set13 без дополнительного bigSet
             }
         }
         set13.removeAll(bigSet);
@@ -139,7 +139,7 @@ public class SetAndMapTasks {
         UniversalMethods.printHashMap(map16);
 
         Set<String> names = new HashSet<>(); // сет нужен чтобы использовать его свойство принимать только уникальные значения
-
+        //TODO не нужно создавать дополнительные хэшсеты. Удалять нужно пару сразу из map16
         Iterator<Map.Entry<String, String>> iterator16 = map16.entrySet().iterator();
         while (iterator16.hasNext()) {
             Map.Entry<String, String> pair = iterator16.next();
