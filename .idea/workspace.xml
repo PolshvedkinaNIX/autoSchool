@@ -4,16 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de412308-fe20-4e66-ab90-9d9f17c5543d" name="Default Changelist" comment="" />
+    <list default="true" id="de412308-fe20-4e66-ab90-9d9f17c5543d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/module5/collections/ArrayListTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/module5/collections/ArrayListTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/module5/collections/HashSetTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/module5/collections/HashSetTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/module5/collections/SetAndMapTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/module5/collections/SetAndMapTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/universal/UniversalMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/universal/UniversalMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/Figure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/RandomFiguresArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module3/figure/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module3/figure/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module4/exeptions/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module4/exeptions/Sleep1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module4/exeptions/Sleep2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module4/exeptions/ZeroDivision.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module5/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module5/collections/ArrayListTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module5/collections/ArrayListTasks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module5/collections/HashSetTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module5/collections/HashSetTasks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module5/collections/SetAndMapTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module5/collections/SetAndMapTasks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/universal/UniversalMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/universal/UniversalMethods.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="task5" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,6 +61,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="SetAndMapTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.module5.collections.SetAndMapTasks" />
+      <module name="autoSchool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.module5.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SetAndMapTasks" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,6 +90,14 @@
       <option name="presentableId" value="Default" />
       <updated>1610640988458</updated>
     </task>
+    <task id="LOCAL-00001" summary=".gitignore">
+      <created>1610643689605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610643689605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -56,7 +115,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revert &quot;Delete target directory&quot;&#10;&#10;This reverts commit f8ba98c3" />
     <MESSAGE value="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit f77e2262" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit f77e2262" />
+    <MESSAGE value=".gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
